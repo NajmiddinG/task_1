@@ -4,7 +4,7 @@
 
 #### Foydalanuvchilar ro'yxati
 - **URL:** `/api/v1/users/`
-- **Metod:** `GE`, `POST`
+- **Metod:** `GET`, `POST`
 - **Ruxsat etilgan foydalanuvchilar:** Superuser, Filial admini
 - **Tavsif:** Barcha foydalanuvchilar ro'yxatini oling.
 
@@ -18,7 +18,7 @@
 
 #### Filiallar ro'yxati
 - **URL:** `/api/v1/branches/`
-- **Metod:** `GE`, `POST`
+- **Metod:** `GET`, `POST`
 - **Ruxsat etilgan foydalanuvchilar:** Superuser, Filial admini
 - **Tavsif:** Barcha filiallar ro'yxatini oling.
 
@@ -32,7 +32,7 @@
 
 #### Fanlar ro'yxati
 - **URL:** `/api/v1/subjects/`
-- **Metod:** `GE`, `POST`
+- **Metod:** `GET`, `POST`
 - **Ruxsat etilgan foydalanuvchilar:** Superuser, Filial admini
 - **Tavsif:** Barcha fanlar ro'yxatini oling.
 
@@ -46,7 +46,7 @@
 
 #### Sinflar ro'yxati
 - **URL:** `/api/v1/classes/`
-- **Metod:** `GE`, `POST`
+- **Metod:** `GET`, `POST`
 - **Ruxsat etilgan foydalanuvchilar:** Superuser, Filial admini
 - **Tavsif:** Barcha sinflar ro'yxatini oling.
 
@@ -60,7 +60,7 @@
 
 #### Dars jadvallari ro'yxati
 - **URL:** `/api/v1/class-schedules/`
-- **Metod:** `GE`, `POST`
+- **Metod:** `GET`, `POST`
 - **Ruxsat etilgan foydalanuvchilar:** Superuser, Filial admini, O'qituvchi
 - **Tavsif:** Barcha dars jadvallari ro'yxatini oling.
 
@@ -74,7 +74,7 @@
 
 #### So'rovlar ro'yxati
 - **URL:** `/api/v1/requests/`
-- **Metod:** `GE`, `POST`
+- **Metod:** `GET`, `POST`
 - **Ruxsat etilgan foydalanuvchilar:** Superuser, Filial admini, O'qituvchi, Talaba
 - **Tavsif:** Barcha so'rovlar ro'yxatini oling.
 
