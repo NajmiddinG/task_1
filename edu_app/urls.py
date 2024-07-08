@@ -4,10 +4,13 @@ from .views import (
     user_list, user_detail, branch_list, branch_detail, 
     subject_list, subject_detail, class_info_list, class_info_detail,
     class_schedule_list, class_schedule_detail, request_list, request_detail,
-    take_attendance,
+    take_attendance, login_view, logout_view
 )
 
 urlpatterns = [
+    path('login/', login_view, name='login'),
+    path('logout/', logout_view, name='logout'),
+
     path('users/', user_list, name='user-list'),
     path('users/<int:pk>/', user_detail, name='user-detail'),
 
